@@ -1,0 +1,159 @@
+/*font-family: 'Baskervville', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav, section, article, header, footer, figure, main, aside, video, audio {
+    display: block;
+}
+#container {
+    width: 96%;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+header {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto 4em;
+}
+header p {
+    text-align: left;
+}
+header img {
+    width: 100%;
+}
+#center p {
+    text-align: center;
+}
+h1 {
+    font-family: 'Baskervville', serif;
+    font-size: 2.5em;
+    font-style: italic;
+    margin: 0.3em 0;
+    text-align: center;
+}
+h2 {
+    font-family: 'Baskervville', serif;
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 0.2em 0;
+    text-align: center; 
+}
+p {
+    font-size: 0.8em;
+}
+nav ul {
+    display: block;
+    background-color: #fafafa;
+    text-align: center;
+    padding: .7em 0;
+}
+nav li {
+    padding: .3em 0;
+    border-bottom: solid 1px #c6c6c6;
+}
+nav li:last-child {
+    border-bottom: none;
+}
+nav a {
+    color: #000;
+    font-family: 'Baskervville', serif;
+    font-style: italic;
+    text-decoration: none;
+}
+#know, #adopt, #love {
+    width: 70%;
+    text-align: center;
+    background-color: #fafafa;
+    padding: 0.7em 1em;
+    margin: 0 auto;
+}
+#col3 {
+    margin-bottom: 2.5em;
+}
+#corgiCam {
+    clear: both;
+    margin: 0 auto;
+    padding-top: 1.5em;
+}
+.video {
+    position: relative;
+    padding-bottom: 65%;
+    padding-top: 25px;
+    height: 0;
+    overflow: hidden;
+}
+.video iframe {
+    position: absolute;
+    left: 13%;
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+}
+footer {
+    display: block;
+    text-align: center;
+    background-color: #fafafa;
+    font-family: 'Baskervville', serif;
+    font-style: italic;
+    padding: 0.7em;
+}
+@media screen and (min-width: 750px) {
+    header img {
+        width: 65%;
+        float: left;
+        padding: 0.9em;
+    }
+    nav li {
+    display: inline-block;
+    padding: 0 1em;
+    border-bottom: none;
+    }
+   #clearIt {
+        clear: both;
+    }
+    #know, #adopt, #love {
+        width: 31%;
+        margin-bottom: 1em;
+        background-color: #fafafa;
+        text-align: center;
+        padding: .2em .2em 1em .2em;
+    }
+    #know {
+        float: left;
+    }
+    #adopt {
+        float: left;
+        margin-left: 4%;
+    }
+    #love {
+        float: right;
+     }
+    #corgiCam {
+    clear: both;
+}
+    footer {
+        clear: both;
+    }
+}
+@media screen and (min-width: 990px) {
+    header img {
+        width: 45%;
+        float: left;
+        padding: 0.9em;
+    }
+    header {
+        margin-bottom: 8em;
+    }
+    #corgiCam {
+    width: 80%;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+}
+}
